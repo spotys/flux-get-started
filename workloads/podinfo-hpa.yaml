@@ -3,6 +3,8 @@ kind: HorizontalPodAutoscaler
 metadata:
   name: podinfo
   namespace: demo
+  labels:
+  - app: podinfo
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
