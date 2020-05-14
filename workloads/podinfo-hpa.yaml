@@ -4,7 +4,7 @@ metadata:
   name: podinfo
   namespace: demo
   labels:
-  - app: podinfo
+    app: podinfo
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
